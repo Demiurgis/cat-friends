@@ -11,7 +11,7 @@ import { searchCats } from '../reducers';
 
 const mapStateToProps = state => {
 	return {
-		searchField: state.searchCats
+		searchField: state.searchField
 	}
 }
 
